@@ -17,6 +17,7 @@
   <run_depend>cirkit_unit03_contorol</run_depend>
   <run_depend>cirkit_unit03_description</run_depend>
   <run_depend>cirkit_unit03_desktop</run_depend>
+  <run_depend>cirkit_unit03_driver</run_depend>
   <run_depend>cirkit_unit03_gazebo</run_depend>
   <run_depend>cirkit_unit03_gmapping</run_depend>
   <run_depend>cirkit_unit03_move_base</run_depend>
