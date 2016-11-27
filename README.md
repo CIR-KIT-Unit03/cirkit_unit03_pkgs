@@ -35,7 +35,7 @@ $ wstool update -t src
 $ cd <catkin_ws>
 $ rosdep install -i -r -y --from-paths src --ignore-src
 ```
-5. Build packages, and set the path for the packages.
+##### 5. Build packages, and set the path for the packages.
 ```bash
 $ cd <catkin_ws>
 $ catkin_make
