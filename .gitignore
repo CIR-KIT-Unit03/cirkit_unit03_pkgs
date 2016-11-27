@@ -50,3 +50,10 @@ Session.vim
 
 # Catkin custom files
 CATKIN_IGNORE
+
+# CIR-KIT-Unit03 packages
+/cirkit_unit03_common
+/cirkit_unit03_desktop
+/cirkit_unit03_navigation
+/cirkit_unit03_robot
+/cirkit_unit03_simulator

@@ -1,0 +1,21 @@
+- git:
+    local-name: cirkit_unit03_pkg/cirkit_unit03_common
+    uri: https://github.com/CIR-KIT-Unit03/cirkit_unit03_common.git
+    version: master
+- git:
+    local-name: cirkit_unit03_pkg/cirkit_unit03_desktop
+    uri: https://github.com/CIR-KIT-Unit03/cirkit_unit03_desktop.git
+    version: master
+- git:
+    local-name: cirkit_unit03_pkg/cirkit_unit03_navigation
+    uri: https://github.com/CIR-KIT-Unit03/cirkit_unit03_navigation.git
+    version: master
+- git:
+    local-name: cirkit_unit03_pkg/cirkit_unit03_robot
+    uri: https://github.com/CIR-KIT-Unit03/cirkit_unit03_robot.git
+    version: master
+- git:
+    local-name: cirkit_unit03_pkg/cirkit_unit03_simulator
+    uri: https://github.com/CIR-KIT-Unit03/cirkit_unit03_simulator.git
+    version: master
+
