@@ -1,4 +1,4 @@
-# cirkit_unit03_pkg
+# cirkit_unit03_pkg [![Build Status](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_pkg.svg?branch)](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_pkg) [![Slack](https://img.shields.io/badge/Slack-CIR--KIT-blue.svg)](http://cir-kit.slack.com/messages/unit03)
 Package description for CIR-KIT-Unit03.
 
 ## About
