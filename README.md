@@ -31,7 +31,7 @@ These packages supports Indigo version.
    $ wstool update -t src
    ```
 4. Download depended packages by rosdep.
-```bash
+   ```bash
     $ cd <catkin_ws>
     $ rosdep install -i -r -y --from-paths src --ignore-src
    ```
