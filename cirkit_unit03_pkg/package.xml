@@ -1,28 +1,29 @@
-<package>
+<?xml version="1.0"?>
+<package format="2">
   <name>cirkit_unit03_pkg</name>
   <version>0.1.0</version>
   <description>
     This package provides packages for cirkit_unit03 robot.
   </description>
   <maintainer email="k104073r@mail.kyutech.jp">RyodoTanaka</maintainer>
-  <author>RyodoTanaka</author>
   <license>BSD</license>
 
   <url type="repository">https://github.com/CIR-KIT-Unit03/cirkit_unit03_pkg.git</url>
   <url type="bugtracker">https://github.com/CIR-KIT-Unit03/cirkit_unit03_pkg/issues</url>
+  <author email="cirkit.infomation@gmail.com">CIR-KIT</author>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <run_depend>cirkit_unit03_amcl</run_depend>
-  <run_depend>cirkit_unit03_bringup</run_depend>
-  <run_depend>cirkit_unit03_contorol</run_depend>
-  <run_depend>cirkit_unit03_description</run_depend>
-  <run_depend>cirkit_unit03_desktop</run_depend>
-  <run_depend>cirkit_unit03_driver</run_depend>
-  <run_depend>cirkit_unit03_gazebo</run_depend>
-  <run_depend>cirkit_unit03_gmapping</run_depend>
-  <run_depend>cirkit_unit03_move_base</run_depend>
-  <run_depend>cirkit_unit03_navigation</run_depend>
-  <run_depend>cirkit_unit03_viz</run_depend>
+  <exec_depend>cirkit_unit03_amcl</exec_depend>
+  <exec_depend>cirkit_unit03_bringup</exec_depend>
+  <exec_depend>cirkit_unit03_contorol</exec_depend>
+  <exec_depend>cirkit_unit03_description</exec_depend>
+  <exec_depend>cirkit_unit03_desktop</exec_depend>
+  <exec_depend>cirkit_unit03_driver</exec_depend>
+  <exec_depend>cirkit_unit03_gazebo</exec_depend>
+  <exec_depend>cirkit_unit03_gmapping</exec_depend>
+  <exec_depend>cirkit_unit03_move_base</exec_depend>
+  <exec_depend>cirkit_unit03_navigation</exec_depend>
+  <exec_depend>cirkit_unit03_viz</exec_depend>
 
   <export>
     <metapackage />
