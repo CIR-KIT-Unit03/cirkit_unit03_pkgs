@@ -18,4 +18,7 @@
     local-name: cirkit_unit03_pkg/cirkit_unit03_simulator
     uri: https://github.com/CIR-KIT-Unit03/cirkit_unit03_simulator.git
     version: master
-
+- git:
+    local-name: cirkit_unit03_pkg/steer_drive_ros
+    uri: https://github.com/CIR-KIT/steer_drive_ros.git
+    version: master
