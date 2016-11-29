@@ -1,4 +1,4 @@
-# cirkit_unit03_pkg [![Build Status](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_pkg.svg?branch)](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_pkg) [![Slack](https://img.shields.io/badge/Slack-CIR--KIT-blue.svg)](http://cir-kit.slack.com/messages/unit03)
+# cirkit_unit03_pkgs [![Build Status](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_pkgs.svg?branch)](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_pkgs) [![Slack](https://img.shields.io/badge/Slack-CIR--KIT-blue.svg)](http://cir-kit.slack.com/messages/unit03)
 Package description for CIR-KIT-Unit03.
 
 ## About
@@ -22,13 +22,13 @@ These packages supports Indigo version.
 ##### 2. Clone this repository.
 ```bash
 $ cd <catkin_ws>/src
-$ git clone https://github.com/CIR-KIT-Unit03/cirkit_unit03_pkg.git
+$ git clone https://github.com/CIR-KIT-Unit03/cirkit_unit03_pkgs.git
 ```
 ##### 3. Download required packages by wstool.
 ```bash
 $ cd <catkin_ws>
 $ wstool init src
-$ wstool merge -t src src/cirkit_unit03_pkg/cirkit_unit03_pkg.rosinstall
+$ wstool merge -t src src/cirkit_unit03_pkgs/cirkit_unit03_pkgs.rosinstall
 $ wstool update -t src
 ```
 ##### 4. Download depended packages by rosdep.

@@ -55,7 +55,7 @@ notifications:
   email:
     on_success: change
     on_failue: always
-  slack: cir-kit:q7FCNVPpkQPHEt42PptuWF57
+  slack: cir-kit:mwlZjf1SWGmDltpn4JpCpZvM
 
 # Configuration variables. All variables are global now, but this can be used to
 # trigger a build matrix for different ROS distributions if desired.
