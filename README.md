@@ -1,8 +1,11 @@
-# cirkit_unit03_pkg [![Build Status](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_pkg.svg?branch)](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_pkg) [![Slack](https://img.shields.io/badge/Slack-CIR--KIT-blue.svg)](http://cir-kit.slack.com/messages/unit03)
+# cirkit_unit03_pkgs [![Build Status](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_pkgs.svg?branch)](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_pkgs) [![Slack](https://img.shields.io/badge/Slack-CIR--KIT-blue.svg)](http://cir-kit.slack.com/messages/unit03)
 Package description for CIR-KIT-Unit03.
 
 ## About
 This repository provides follow packages.
+Supported ROS version is **Indigo**.
+
+#### Basical packages for CIR-KIT-Unit03
 - [cirkit_unit03_amcl](https://github.com/CIR-KIT-Unit03/cirkit_unit03_navigation/tree/master/cirkit_unit03_amcl)
 - [cirkit_unit03_bringup](https://github.com/CIR-KIT-Unit03/cirkit_unit03_robot/tree/master/cirkit_unit03_bringup)
 - [cirkit_unit03_contorol](https://github.com/CIR-KIT-Unit03/cirkit_unit03_common/tree/master/cirkit_unit03_control)
@@ -15,20 +18,23 @@ This repository provides follow packages.
 - [cirkit_unit03_navigation](https://github.com/CIR-KIT-Unit03/cirkit_unit03_navigation/tree/master/cirkit_unit03_navigation)
 - [cirkit_unit03_viz](https://github.com/CIR-KIT-Unit03/cirkit_unit03_desktop/tree/master/cirkit_unit03_viz)
 
-These packages supports Indigo version.
+#### Dependent packages for CIR-KIT-Unit03
+- [steer_drive_ros](https://github.com/CIR-KIT/steer_drive_ros)
+- [ira_laser_tools](https://github.com/AriYu/ira_laser_tools/tree/fix-eigen3cmake)
 
+---
 ## Installation
 ##### 1. Create **catkinized**  workspace.
 ##### 2. Clone this repository.
 ```bash
 $ cd <catkin_ws>/src
-$ git clone https://github.com/CIR-KIT-Unit03/cirkit_unit03_pkg.git
+$ git clone https://github.com/CIR-KIT-Unit03/cirkit_unit03_pkgs.git
 ```
 ##### 3. Download required packages by wstool.
 ```bash
 $ cd <catkin_ws>
 $ wstool init src
-$ wstool merge -t src src/cirkit_unit03_pkg/cirkit_unit03_pkg.rosinstall
+$ wstool merge -t src src/cirkit_unit03_pkgs/cirkit_unit03_pkgs.rosinstall
 $ wstool update -t src
 ```
 ##### 4. Download depended packages by rosdep.

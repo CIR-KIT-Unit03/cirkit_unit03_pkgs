@@ -55,7 +55,7 @@ notifications:
   email:
     on_success: change
     on_failue: always
-  slack: cir-kit:q7FCNVPpkQPHEt42PptuWF57
+  slack: cir-kit:mwlZjf1SWGmDltpn4JpCpZvM
 
 # Configuration variables. All variables are global now, but this can be used to
 # trigger a build matrix for different ROS distributions if desired.
@@ -64,7 +64,7 @@ env:
     - ROS_DISTRO=indigo
     - ROS_CI_DESKTOP="`lsb_release -cs`"  # e.g. [precise|trusty|...]
     - CI_SOURCE_PATH=$(pwd)
-    - ROSINSTALL_FILE=$CI_SOURCE_PATH/cirkit_unit03_pkg.rosinstall
+    - ROSINSTALL_FILE=$CI_SOURCE_PATH/cirkit_unit03_pkgs.rosinstall
     - CATKIN_OPTIONS=$CI_SOURCE_PATH/catkin.options
     - ROS_PARALLEL_JOBS='-j8 -l6'
 
@@ -115,5 +115,5 @@ script:
   - catkin_make $( [ -f $CATKIN_OPTIONS ] && cat $CATKIN_OPTIONS )
   - source devel/setup.bash
   # Testing: Use both run_tests (to see the output) and test (to error out).
-  ### - catkin_make run_tests  # This always returns 0, but looks pretty.
-  ### - catkin_make test  # This will return non-zero if a test fails.
+  - catkin_make run_tests  # This always returns 0, but looks pretty.
+  - catkin_make test  # This will return non-zero if a test fails.
