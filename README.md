@@ -3,6 +3,9 @@ Package description for CIR-KIT-Unit03.
 
 ## About
 This repository provides follow packages.
+Supported ROS version is **Indigo**.
+
+#### Basical packages for CIR-KIT-Unit03
 - [cirkit_unit03_amcl](https://github.com/CIR-KIT-Unit03/cirkit_unit03_navigation/tree/master/cirkit_unit03_amcl)
 - [cirkit_unit03_bringup](https://github.com/CIR-KIT-Unit03/cirkit_unit03_robot/tree/master/cirkit_unit03_bringup)
 - [cirkit_unit03_contorol](https://github.com/CIR-KIT-Unit03/cirkit_unit03_common/tree/master/cirkit_unit03_control)
@@ -15,8 +18,11 @@ This repository provides follow packages.
 - [cirkit_unit03_navigation](https://github.com/CIR-KIT-Unit03/cirkit_unit03_navigation/tree/master/cirkit_unit03_navigation)
 - [cirkit_unit03_viz](https://github.com/CIR-KIT-Unit03/cirkit_unit03_desktop/tree/master/cirkit_unit03_viz)
 
-These packages supports Indigo version.
+#### Dependent packages for CIR-KIT-Unit03
+- [steer_drive_ros](https://github.com/CIR-KIT/steer_drive_ros)
+- [ira_laser_tools](https://github.com/AriYu/ira_laser_tools/tree/fix-eigen3cmake)
 
+---
 ## Installation
 ##### 1. Create **catkinized**  workspace.
 ##### 2. Clone this repository.
