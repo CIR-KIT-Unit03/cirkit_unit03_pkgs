@@ -17,7 +17,7 @@ Supported ROS version is **Indigo**.
 - [cirkit_unit03_robot](https://github.com/CIR-KIT-Unit03/cirkit_unit03_robot)
   - [cirkit_unit03_bringup](https://github.com/CIR-KIT-Unit03/cirkit_unit03_robot/tree/master/cirkit_unit03_bringup)
   - [cirkit_unit03_driver](https://github.com/CIR-KIT-Unit03/cirkit_unit03_robot/tree/master/cirkit_unit03_driver)
-- cirkit_unit03_simulator](https://github.com/CIR-KIT-Unit03/cirkit_unit03_simulator)
+- [cirkit_unit03_simulator](https://github.com/CIR-KIT-Unit03/cirkit_unit03_simulator)
   - [cirkit_unit03_gazebo](https://github.com/CIR-KIT-Unit03/cirkit_unit03_simulator/tree/master/cirkit_unit03_gazebo)
 
 #### Dependent packages for CIR-KIT-Unit03
