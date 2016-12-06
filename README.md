@@ -6,21 +6,28 @@ This repository provides follow packages.
 Supported ROS version is **Indigo**.
 
 #### Basical packages for CIR-KIT-Unit03
-- [cirkit_unit03_amcl](https://github.com/CIR-KIT-Unit03/cirkit_unit03_navigation/tree/master/cirkit_unit03_amcl)
-- [cirkit_unit03_bringup](https://github.com/CIR-KIT-Unit03/cirkit_unit03_robot/tree/master/cirkit_unit03_bringup)
-- [cirkit_unit03_contorol](https://github.com/CIR-KIT-Unit03/cirkit_unit03_common/tree/master/cirkit_unit03_control)
-- [cirkit_unit03_description](https://github.com/CIR-KIT-Unit03/cirkit_unit03_common/tree/master/cirkit_unit03_description)
-- [cirkit_unit03_desktop](https://github.com/CIR-KIT-Unit03/cirkit_unit03_desktop/tree/master/cirkit_unit03_desktop)
-- [cirkit_unit03_driver](https://github.com/CIR-KIT-Unit03/cirkit_unit03_robot/tree/master/cirkit_unit03_driver)
-- [cirkit_unit03_gazebo](https://github.com/CIR-KIT-Unit03/cirkit_unit03_simulator/tree/master/cirkit_unit03_gazebo)
-- [cirkit_unit03_gmapping](https://github.com/CIR-KIT-Unit03/cirkit_unit03_navigation/tree/master/cirkit_unit03_gmapping)
-- [cirkit_unit03_move_base](https://github.com/CIR-KIT-Unit03/cirkit_unit03_navigation/tree/master/cirkit_unit03_move_base)
-- [cirkit_unit03_navigation](https://github.com/CIR-KIT-Unit03/cirkit_unit03_navigation/tree/master/cirkit_unit03_navigation)
-- [cirkit_unit03_viz](https://github.com/CIR-KIT-Unit03/cirkit_unit03_desktop/tree/master/cirkit_unit03_viz)
+- [cirkit_unit03_common](https://github.com/CIR-KIT-Unit03/cirkit_unit03_common)
+  - [cirkit_unit03_contorol](https://github.com/CIR-KIT-Unit03/cirkit_unit03_common/tree/master/cirkit_unit03_control)
+  - [cirkit_unit03_description](https://github.com/CIR-KIT-Unit03/cirkit_unit03_common/tree/master/cirkit_unit03_description)
+- [cirkit_unit03_navigation](https://github.com/CIR-KIT-Unit03/cirkit_unit03_navigation)
+  - [cirkit_unit03_amcl](https://github.com/CIR-KIT-Unit03/cirkit_unit03_navigation/tree/master/cirkit_unit03_amcl)
+  - [cirkit_unit03_gmapping](https://github.com/CIR-KIT-Unit03/cirkit_unit03_navigation/tree/master/cirkit_unit03_gmapping)
+  - [cirkit_unit03_maps](https://github.com/CIR-KIT-Unit03/cirkit_unit03_navigation/tree/master/cirkit_unit03_maps)
+  - [cirkit_unit03_move_base](https://github.com/CIR-KIT-Unit03/cirkit_unit03_navigation/tree/master/cirkit_unit03_move_base)
+- [cirkit_unit03_robot](https://github.com/CIR-KIT-Unit03/cirkit_unit03_robot)
+  - [cirkit_unit03_bringup](https://github.com/CIR-KIT-Unit03/cirkit_unit03_robot/tree/master/cirkit_unit03_bringup)
+  - [cirkit_unit03_driver](https://github.com/CIR-KIT-Unit03/cirkit_unit03_robot/tree/master/cirkit_unit03_driver)
+- [cirkit_unit03_simulator](https://github.com/CIR-KIT-Unit03/cirkit_unit03_simulator)
+  - [cirkit_unit03_gazebo](https://github.com/CIR-KIT-Unit03/cirkit_unit03_simulator/tree/master/cirkit_unit03_gazebo)
 
 #### Dependent packages for CIR-KIT-Unit03
-- [steer_drive_ros](https://github.com/CIR-KIT/steer_drive_ros)
 - [ira_laser_tools](https://github.com/AriYu/ira_laser_tools/tree/fix-eigen3cmake)
+- [lower_step_detector](https://github.com/CIR-KIT/lower_step_detector)
+- [steer_drive_ros](https://github.com/CIR-KIT/steer_drive_ros)
+  - [steer_drive_ros](https://github.com/CIR-KIT/steer_drive_ros/tree/master/steer_bot_hardware_gazebo)
+  - [steer_drive_controller](https://github.com/CIR-KIT/steer_drive_ros/tree/master/steer_drive_controller)
+  - [stepback_and_steerturn_recovery](https://github.com/CIR-KIT/steer_drive_ros/tree/master/stepback_and_steerturn_recovery)
+
 
 ---
 ## Installation

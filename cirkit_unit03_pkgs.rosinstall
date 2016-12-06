@@ -3,10 +3,6 @@
     uri: https://github.com/CIR-KIT-Unit03/cirkit_unit03_common.git
     version: master
 - git:
-    local-name: cirkit_unit03_pkgs/cirkit_unit03_desktop
-    uri: https://github.com/CIR-KIT-Unit03/cirkit_unit03_desktop.git
-    version: master
-- git:
     local-name: cirkit_unit03_pkgs/cirkit_unit03_navigation
     uri: https://github.com/CIR-KIT-Unit03/cirkit_unit03_navigation.git
     version: master
@@ -19,10 +15,14 @@
     uri: https://github.com/CIR-KIT-Unit03/cirkit_unit03_simulator.git
     version: master
 - git:
-    local-name: cirkit_unit03_deps/steer_drive_ros
-    uri: https://github.com/CIR-KIT/steer_drive_ros.git
-    version: master
-- git:
     local-name: cirkit_unit03_deps/ira_laser_tools
     uri: https://github.com/AriYu/ira_laser_tools.git
     version: fix-eigen3cmake
+- git:
+    local-name: cirkit_unit03_deps/lower_step_detector
+    uri: https://github.com/CIR-KIT/lower_step_detector.git
+    version: master
+- git:
+    local-name: cirkit_unit03_deps/steer_drive_ros
+    uri: https://github.com/CIR-KIT/steer_drive_ros.git
+    version: master
