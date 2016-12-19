@@ -1,8 +1,8 @@
 # cirkit_unit03_pkgs [![Build Status](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_pkgs.svg?branch)](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_pkgs) [![Slack](https://img.shields.io/badge/Slack-CIR--KIT-blue.svg)](http://cir-kit.slack.com/messages/unit03)
-Package description for CIR-KIT-Unit03.
+The overall management reposigory for all packages specifically related to CIR-KIT-Unit03.
 
 ## About
-This repository provides follow packages.
+This repository provides following packages.
 Supported ROS version is **Indigo**.
 
 #### Basical packages for CIR-KIT-Unit03
@@ -39,7 +39,7 @@ $ cd <catkin_ws>/src
 $ git clone https://github.com/CIR-KIT-Unit03/cirkit_unit03_pkgs.git
 ```
 
-##### 3. Run install script
+##### 3. Run install script.
 - Without test
 ```bash
 $ cd <catkin_ws>/src/cirkit_unit03_pkgs
