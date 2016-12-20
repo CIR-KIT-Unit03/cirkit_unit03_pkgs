@@ -77,3 +77,32 @@ $ cd <catkin_ws>
 $ catkin_make
 $ source devel/setup.bash
 ```
+
+---
+## Directory configuration after Installation
+
+```
+<catkin_ws>
+│
+└ src
+   │
+   ├ cirkit_unit03_deps (Just a directory, not a metapacage)
+   │   |
+   |   ├ ira_laser_tools (Cloned via cirkit_unit03_pkgs.rosinstall)
+   │   |
+   |   ├ lower_step_detector (Cloned via cirkit_unit03_pkgs.rosinstall)
+   │   |
+   │   └ steer_drive_ros (Cloned via cirkit_unit03_pkgs.rosinstall)
+   │
+   └ cirkit_unit03_pkgs
+       |
+       ├ cirkit_unit03_pkgs (Metapackage)
+       |
+       ├ cirkit_unit03_common (Cloned via cirkit_unit03_pkgs.rosinstall)
+       |
+       ├ cirkit_unit03_navigation (Cloned via cirkit_unit03_pkgs.rosinstall)
+       |
+       ├ cirkit_unit03_robot (Cloned via cirkit_unit03_pkgs.rosinstall)
+       |
+       └ cirkit_unit03_simulator (Cloned via cirkit_unit03_pkgs.rosinstall)
+```
