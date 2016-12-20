@@ -47,10 +47,10 @@ $ cd <catkin_ws>/src/cirkit_unit03_pkgs
 $ sh install.sh
 ```
 - optional arguments:
-  * -h: show this help message and exit"
-  * -i: eneble `rosdep init`"
-  * -t: enable `catkin_make run_tests`"
-  * -r: remove existing `src/.rosinstall`"
+  * -h: show this help message and exit
+  * -i: eneble `rosdep init`
+  * -t: enable `catkin_make run_tests`
+  * -r: remove existing `src/.rosinstall`
 
 ### From command line
 ##### 1. Create **catkinized**  workspace.
