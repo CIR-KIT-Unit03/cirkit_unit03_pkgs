@@ -26,7 +26,7 @@ Supported ROS version is **Indigo**.
 - [ira_laser_tools](https://github.com/AriYu/ira_laser_tools/tree/fix-eigen3cmake)
 - [lower_step_detector](https://github.com/CIR-KIT/lower_step_detector)
 - [steer_drive_ros](https://github.com/CIR-KIT/steer_drive_ros)
-  - [steer_drive_ros](https://github.com/CIR-KIT/steer_drive_ros/tree/master/steer_bot_hardware_gazebo)
+  - [steer_bot_hardware_gazebo](https://github.com/CIR-KIT/steer_drive_ros/tree/master/steer_bot_hardware_gazebo)
   - [steer_drive_controller](https://github.com/CIR-KIT/steer_drive_ros/tree/master/steer_drive_controller)
   - [stepback_and_steerturn_recovery](https://github.com/CIR-KIT/steer_drive_ros/tree/master/stepback_and_steerturn_recovery)
 
