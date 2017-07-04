@@ -9,7 +9,7 @@
 - git:
     local-name: cirkit_unit03_robot
     uri: https://github.com/CIR-KIT-Unit03/cirkit_unit03_robot.git
-    version: master
+    version: kinetic-devel
 - git:
     local-name: cirkit_unit03_simulator
     uri: https://github.com/CIR-KIT-Unit03/cirkit_unit03_simulator.git
