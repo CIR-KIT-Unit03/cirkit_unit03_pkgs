@@ -1,0 +1,28 @@
+- git:
+    local-name: cirkit_unit03_common
+    uri: https://github.com/CIR-KIT-Unit03/cirkit_unit03_common.git
+    version: kinetic-devel
+- git:
+    local-name: cirkit_unit03_navigation
+    uri: https://github.com/CIR-KIT-Unit03/cirkit_unit03_navigation.git
+    version: kinetic-devel
+- git:
+    local-name: cirkit_unit03_robot
+    uri: https://github.com/CIR-KIT-Unit03/cirkit_unit03_robot.git
+    version: master
+- git:
+    local-name: cirkit_unit03_simulator
+    uri: https://github.com/CIR-KIT-Unit03/cirkit_unit03_simulator.git
+    version: kinetic-devel
+- git:
+    local-name: ira_laser_tools
+    uri: https://github.com/CIR-KIT/ira_laser_tools.git
+    version: mm/modify/depend
+- git:
+    local-name: lower_step_detector
+    uri: https://github.com/CIR-KIT/lower_step_detector.git
+    version: master
+- git:
+    local-name: steer_drive_ros
+    uri: https://github.com/CIR-KIT/steer_drive_ros.git
+    version: kinetic-devel
