@@ -17,7 +17,7 @@ env:
     - CATKIN_PARALLEL_TEST_JOBS=-p1
     - ROS_PARALLEL_TEST_JOBS=-j1
     - UPSTREAM_WORKSPACE=file
-    - ROSINSTALL_FILENAME=travis.rosinstal
+    - ROSINSTALL_FILENAME=travis.rosinstall
   matrix:
     - ROS_DISTRO="kinetic"  ROS_REPOSITORY_PATH=http://packages.ros.org/ros/ubuntu
     - ROS_DISTRO="kinetic"  ROS_REPOSITORY_PATH=http://packages.ros.org/ros-shadow-fixed/ubuntu
